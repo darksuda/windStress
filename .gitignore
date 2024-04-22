@@ -1,0 +1,5 @@
+*.png
+*.cdf
+*.nc
+data/*.csv
+*/__pycache__*
