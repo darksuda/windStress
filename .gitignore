@@ -1,6 +1,4 @@
-*.png
+.png
 *.cdf
 *.nc
-*.csv
-data/*.csv
 */__pycache__*

@@ -86,7 +86,7 @@ def request_wind_historical_data(year, buoy):
     if not os.path.isfile(file_dir):
         print(f'No se ha encontrado data histórica disponible en su computadora para el año {year} en la boya {buoy}')
         try:
-            init_wind_data_download(buoy)      
+            init_wind_data_download(buoy)
             data = cdf.Dataset(file_cdf)
             date_init = dt.datetime(
                 int(data['time'].units[11:15]),
